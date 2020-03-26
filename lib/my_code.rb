@@ -56,3 +56,6 @@ def reduce_to_total(the_array, starting_point = 0)
   
   return starting_point
 end 
+
+if reduce_to_all_true
+
