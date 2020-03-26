@@ -75,12 +75,12 @@ def reduce_to_any_true(source)
   i = 0 
   while i < source.length do 
     if source[i]
-      true 
+      return true 
     else 
-      return false 
+      false 
     end 
     
     i += 1 
   end   
-  return true  
+  return false  
 end 
