@@ -71,3 +71,16 @@ def reduce_to_all_true(source)
   return true  
 end 
 
+def reduce_to_all_true(source)
+  i = 0 
+  while i < source.length do 
+    if source[i]
+      true 
+    else 
+      return false 
+    end 
+    
+    i += 1 
+  end   
+  return true  
+end 
