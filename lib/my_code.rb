@@ -45,3 +45,4 @@ def map_to_square(input)
   new_map
 end 
 
+def reduce_to_total 
