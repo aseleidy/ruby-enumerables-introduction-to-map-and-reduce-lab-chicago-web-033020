@@ -62,11 +62,13 @@ def reduce_to_all_true(source)
   while i < source.length do 
     
     if source[i] == true 
-      true 
+      true
+    else 
+      false 
     end 
     
     i += 1 
   end   
-  false 
+   
 end 
 
