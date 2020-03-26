@@ -21,4 +21,7 @@ def map_to_no_change(input)
   new_map
 end 
 
-def 
+def map_to_double(input) 
+  
+
+end 
