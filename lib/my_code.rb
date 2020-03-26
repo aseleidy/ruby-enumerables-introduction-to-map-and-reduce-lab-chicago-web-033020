@@ -45,11 +45,11 @@ def map_to_square(input)
   new_map
 end 
 
-def reduce_to_total(source)
+def reduce_to_total(the_array)
   total = 0 
   i = 0 
-  while i < source.length do 
-    total += source[i]
+  while i < the_array.length do 
+    total += the_array[i]
     
     i += 1 
   end 
