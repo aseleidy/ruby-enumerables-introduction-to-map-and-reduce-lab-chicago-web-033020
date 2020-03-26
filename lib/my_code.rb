@@ -53,5 +53,6 @@ def reduce_to_total(source)
     
     i += 1 
   end 
-  total 
+  
+  return total 
 end 
