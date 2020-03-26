@@ -32,3 +32,16 @@ def map_to_double(input)
   
   new_map
 end 
+
+def map_to_double(input) 
+  new_map = []
+  i = 0 
+  while i < input.length do 
+    new_map << input[i] * 2
+    
+    i += 1
+  end 
+  
+  new_map
+end 
+
